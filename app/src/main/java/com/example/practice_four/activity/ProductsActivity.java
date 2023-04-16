@@ -12,7 +12,6 @@ import android.widget.TextView;
 import com.example.practice_four.R;
 import com.example.practice_four.model.Product;
 import com.example.practice_four.model.ProductsAdapter;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -22,14 +21,11 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class ProductsActivity extends AppCompatActivity {
 
     private TextView mTextViewEmail;
     private RecyclerView mRecyclerView;
     private DatabaseReference firebaseDatabase;
-
-//    private FirebaseAuth mFirebaseAuth;
     private ProductsAdapter mProductsAdapter;
 
     @Override

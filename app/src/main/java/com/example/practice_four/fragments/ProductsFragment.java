@@ -6,8 +6,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,11 +25,6 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-//import edu.psu.sweng888.lessonfive_fragmentsui.R;
-//import edu.psu.sweng888.lessonfive_fragmentsui.data.Book;
-//import edu.psu.sweng888.lessonfive_fragmentsui.adapter.BookAdapter;
-//import edu.psu.sweng888.lessonfive_fragmentsui.data.BookDatabaseHelper;
-
 public class ProductsFragment extends Fragment {
 
     private ProductsAdapter productAdapter;
@@ -49,8 +42,6 @@ public class ProductsFragment extends Fragment {
         /** Instantiate the RecyclerView */
         mRecyclerView = view.findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-
-//        mAddToCartButton = container.findViewById(R.id.add_to_cart_text_view);
 
         /** Implement the Call to FirebaseProductDAO */
 
