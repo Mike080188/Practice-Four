@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Practice Four</string>
+
+    <!-- Strings for the LoginActivity -->
+    <string name="text_view_user">User name or Email</string>
+    <string name="text_view_password">Password</string>
+    <string name="button_sign_in">Login</string>
+    <string name="button_sign_up">Click here to Sign Up</string>
+
+    <!-- Strings for the SignUpActivity -->
+    <string name="sign_up_button_sign_up">Sign Up!</string>
+    <string name="text_view_password_confirm">Confirm Password</string>
+
+
+    <!-- Strings for the item_product layout (Recycler View) -->
+    <string name="name">Name</string>
+    <string name="seller">Seller</string>
+    <string name="description_date">Description</string>
+    <string name="price">Price</string>
+
+    <!-- Strings for the nav drawer -->
+    <string name="nav_drawer_title">Happy Pet</string>
+    <string name="nav_drawer_subtitle">Mobile App</string>
+    <string name="nav_drawer_item_home">Home</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nav_drawer_item_logout">Sign Out</string>
+    <string name="nav_drawer_item_cart">Cart</string>
+    <string name="nav_drawer_item_products">Products</string>
+
+    <!-- Strings for the HomeFragment -->
+    <string name="frag_home_welcome">Welcome - Home</string>
+
+    <!-- Strings for the ProductsFragment -->
+    <string name="frag_products_header">Products</string>
+
+    <!-- Strings for the CartFragment -->
+    <string name="frag_cart_header">Cart</string>
+    <string name="empty_cart">Your cart is empty</string>
+
+
+</resources>

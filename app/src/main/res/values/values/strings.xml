@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LessonFive_FirebaseUI</string>
+
+    <!-- Strings for the LoginActivity -->
+    <string name="text_view_user">User name or Email</string>
+    <string name="text_view_password">Password</string>
+    <string name="button_sign_in">Login</string>
+    <string name="button_sign_up">Click here to Sign Up</string>
+
+    <!-- Strings for the item_product layour (Recycler View) -->
+    <string name="title">Title</string>
+    <string name="name">Name</string>
+    <string name="seller">Seller</string>
+    <string name="description_date">Description Date</string>
+    <string name="price">ISBN</string>
+
+</resources>
